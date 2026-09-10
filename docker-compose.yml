@@ -1,0 +1,12 @@
+services:
+  gazu-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gazu-fashion-app
+    restart: unless-stopped
+    ports:
+      # Map host port 80 to container port 80 (change 80:80 to 8080:80 or 3000:80 if desired)
+      - "80:80"
+    environment:
+      - NODE_ENV=production

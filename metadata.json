@@ -1,0 +1,6 @@
+{
+  "name": "GAZU",
+  "description": "Modern, minimalist, premium everyday fashion for Men, Women, and Kids.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
